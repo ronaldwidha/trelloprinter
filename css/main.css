@@ -37,7 +37,7 @@ body {
 
 li {
   cursor: pointer;
-  list-style-type: none;
+  list-style-type: circle;
 }
 
 #cards {
@@ -57,7 +57,7 @@ li {
     border-bottom: 2px dashed black;
     border-right: 2px dashed black;
     float: left;
-    font-size: .2in;
+    font-size: .17in;
 }
 .card:nth-child(5n+2) {
   border-right: none;
@@ -143,6 +143,6 @@ h2 {
     page-break-before: always;
   }
   #header, #boards, #lists, #loggedout {
-    display: none;
+    display: none !important;
   }
 }
